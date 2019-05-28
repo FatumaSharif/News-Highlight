@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% macro displaySourcesList(sources_list) %}
+    {% for sources in sources_list  %}
+            <div class="panel panel-default sources ">
+                <h4 class="source-title"><a href="/source/{{sources.id}}">{{ sources.name }}</a></h4>
+                <p>
+                    {{sources.description |truncate(200)}}
+                </p>
+            </div>
+ 
+    {% endfor %}
+{% endmacro %}
