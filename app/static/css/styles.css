@@ -1,0 +1,367 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87)
+  background-color: #fff;
+  margin-top: 3%;
+  line-height: 1.5;
+}
+/* 
+ * TOP STORY STYLES
+ */
+.top-stories, .main-story{
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 5px;
+}
+.top-stories-title {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #aaa;
+  padding-bottom: 2px;
+}
+.top-story{
+  border-bottom: 1px solid #ddd;
+  height: 7rem;
+  width: 98%;
+}
+.top-story:last-child{
+  border-bottom: none;
+}
+.top-story-img{
+  width: 9rem;
+  height: 7rem;
+}
+.top-story-title {
+  padding-left: 10rem;
+  margin-top: -5.6rem;
+  padding-bottom: 0.6rem;  
+  color: #222;
+  font-weight: 600;
+  font-size: 1.2rem;  
+}
+
+ /*
+  * MAIN STORY 
+  */
+.main-stories-title {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #aaa;
+  padding-bottom: 2px;
+}
+.main-story{
+  height: 95% ;
+}
+.main-story-title {
+  color: #222;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.main-story-img {
+  width: 54rem;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.main-story-details {
+    padding: 18px;
+}
+.timestamp {
+  font-weight: 600;
+  color: #444;
+  font-size: 1.1rem;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+/*
+ * VIDEO SECTION EXPLORE 
+ */
+.section-title {
+  font-size: 3rem;
+  color: #222;
+  font-weight: 700;
+}
+.section-title::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 69%;
+  height: 3px;
+  background-color: green;
+}
+.section-video {
+  margin-top: 12%;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 280px;
+}
+.video-iframe{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.video--text,
+.article-details {
+  color: #222;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 2%;
+  padding-left: 5%;
+}
+.article-timestamp{
+  padding: 2%;
+  padding-left: 5%;
+  padding-top: 0;
+}
+.s-video{
+  margin: 4rem;
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+/*
+ * ARTICLES SECTION EXPLORE 
+ */
+.articles-section{
+  margin: 4rem;
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+.article-image img{
+  width: 280px;
+  height: 200px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.article-section{
+  margin-top: 12%;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 280px;
+}
+/*
+ *OTHER NEWS SECTION 
+ */
+.other-news-stories{
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-left: -1.2rem;
+}
+.other-news-story {
+  border-bottom: 1px solid #ddd;
+  height: 10rem;
+  width: 98%;
+}
+.other-news-story-img{
+  width: 12rem;
+  height: 10rem;
+}
+.other-news-story-title{
+  padding-left: 14rem;
+  margin-top: -7.6rem;
+  padding-bottom: 0.6rem;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.other-news-story-subtitle {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-left: 14rem;
+}
+.other-news-source{
+  padding-left: 14rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #aaa;
+  padding-bottom: 2px;
+}
+
+/*
+ *FOOTER SECTION 
+ */
+ .my-footer {
+  padding-top: 1%;
+  text-align: center;
+  margin-left: -10%;
+  height: 100px;
+  margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.856);
+}
+.footer-social-icons {
+  color: #ccc;
+  margin-bottom: 5px;
+  padding-left: 35px;  
+}
+.footer-social-icons i{
+  padding-right: 15px;
+}
+.footer-list {
+  display: inline-block;
+  padding-left: 35px;
+  text-align: center;
+  color: #ddd
+}
+.footer-list a {
+  color: #ccc;
+}
+.footer-list a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-mini {
+  display: inline-block;
+  padding-right: 9px;
+  color: #ccc;
+  padding-left: 9px;
+  border-right: 1px solid #777;
+}
+.copyrights {
+  background-color: green;
+  width: 100%;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  color: #ddd;
+}
+/*
+ *******************
+ SINGLE ARTICLE PAGE 
+ *******************
+ */
+.article-text {
+  color: #222;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  padding-top: 2%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2%;
+}
+.article-title {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 900;
+  letter-spacing: -1px; 
+}
+.article-author,
+.article-timestamp{
+  font-weight: 600;
+  color: #444;
+  font-size: 1.3rem;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+.article-author {
+  padding-right: 1%;
+  border-right: 1px solid #cccc;
+}
+.article-timestamp{
+  padding-left: 1%;
+}
+.single--article--details {
+  margin-bottom: 1%;
+}
+.article-image-details{
+  box-shadow: 0px 0px 5px #ccc;
+}
+.article--image {
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.aricle-image-caption {
+  font-size: 1.5rem;
+  color: #555;
+  padding: 2%;
+}
+.article--subtitle{
+  color: #444;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  padding-top: 2%;
+}
+.mid-article-subheader{
+  color: rgba(0, 0, 0, 0.747);
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  margin-top: 2%;
+  margin-top: 1%;   
+  letter-spacing: -1px; 
+}
+.article-suggestions-title{
+  font-size: 2rem;
+  margin-top: 4%;
+}
+.article-suggestions-title::after{
+  width: 9%;
+  height: 2px;
+}
+/*
+ *SUGGESTION TABS 
+ */
+.article-suggestion-tabs {
+  width: 100%;
+}
+button.btn.btn-lg.article-tab {
+  border: 1px solid green;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-right: 5px;
+}
+
+.other-news-image{
+  width: 21%;
+  height: auto;
+}
+.news-story{
+  margin-left: 13%;
+}
+
+.other-news-story {
+  border-bottom: 1px solid #ddd;
+  height: 15rem;
+  width: 98%;
+}
+.other-news-image {
+  width: 31.2%;
+  height: auto;
+}
+html {
+  font-size: 13px;
+}
+.other-news-story-title {
+  padding-left: 14rem;
+  margin-top: -10.6rem;
+  padding-bottom: 0.6rem;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.other-news-story {
+  border-bottom: 1px solid #ddd;
+  height: 12.4rem;
+  width: 98%;
+  margin-bottom: 1%;
+}
+
+.panel-default {
+  border-color: #ddd;
+  padding: 1%;
+  font-weight: 500;
+  font-size: 17px;
+  box-shadow: 1px 1px 1px #ccc;
+}
+.source-title a{
+  font-size: 24px;
+}
