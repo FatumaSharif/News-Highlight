@@ -1,18 +1,28 @@
 # News Highlight
 
-This is an application that consumes the [newsapi](http://www.newsapi.org) and displays a list of 
+This is an application that consumes the [newsapi](http://newsapi.org) and displays a list of news sources and the source articles
 
 ## Getting Started
-Git clone this project
-Set up a virtual environment
-Install flask using pip installer
+
+@ul
+
+- Git clone this project
+- Set up a virtual environment
+- Install flask using pip installer
+
+@ulend
 
 ### Prerequisites
 
-Python3.5 or above required to run this application
-Virtual environment
-Flask
-Flask dependencies: flask-bootstrap, flask-script, flask-wtf
+@ul
+
+- Python3.5 or above required to run this application
+- Virtual environment
+- Flask
+- Flask dependencies: flask-bootstrap, flask-script, flask-wtf
+
+@ulend
+
 
 ## Built With
 
