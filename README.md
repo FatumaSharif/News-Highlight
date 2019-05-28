@@ -4,24 +4,17 @@ This is an application that consumes the [newsapi](http://newsapi.org) and displ
 
 ## Getting Started
 
-@ul
-
 - Git clone this project
 - Set up a virtual environment
 - Install flask using pip installer
 
-@ulend
 
 ### Prerequisites
-
-@ul
 
 - Python3.5 or above required to run this application
 - Virtual environment
 - Flask
 - Flask dependencies: flask-bootstrap, flask-script, flask-wtf
-
-@ulend
 
 
 ## Built With
